@@ -1,0 +1,77 @@
+/* Jobs.css */
+
+/* General Container Styling */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Card Styling */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Title Styling */
+.card-title {
+  font-size: 1.25rem;
+  color: #007bff; /* Matches Bootstrap's primary color */
+  font-weight: bold;
+}
+
+/* Card Text Styling */
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* Button Styling */
+.card .btn-primary {
+  width: 100%;
+  padding: 10px;
+}
+
+.card .btn-link {
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #007bff;
+  padding-top: 10px;
+}
+
+.btn-primary:hover, .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+/* Alert Styling */
+.alert {
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.15rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.05rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+}
+ 
